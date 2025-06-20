@@ -69,7 +69,7 @@ Ensure you have the following installed:
     `cd backend
     npm start`
     
-    Start the frontend server:
+   Start the frontend server:
    bash
     `cd frontend
     npm run dev`
