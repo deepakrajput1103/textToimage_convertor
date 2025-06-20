@@ -48,6 +48,7 @@ Ensure you have the following installed:
    git clone https://github.com/your-username/textToimage_convertor.git
    cd textToimage_convertor
 2. **Set Up the Backend**:
+   ```bash
    cd backend
    npm install
  **Create a .env file in the backend directory and add the required environment variables**:
@@ -56,31 +57,30 @@ Ensure you have the following installed:
    RAZORPAY_KEY_ID=<your-razorpay-key-id>
    RAZORPAY_KEY_SECRET=<your-razorpay-key-secret>
 3. **Set Up the Frontend**:
-   cd ../frontend
-   npm install
+      bash
+   `cd ../frontend
+   npm install `
  **Create a .env file in the frontend directory and add the following**:
    VITE_BACKEND_URL=http://localhost:4000
    VITE_RAZORPAY_KEY_ID=<your-razorpay-key-id>
 4. **Run the Application**:
    Start the backend server:
-
-    bash
-    cd backend
-    npm start
+   bash
+    `cd backend
+    npm start`
     
     Start the frontend server:
-    
-    bash
-    cd frontend
-    npm run dev
+   bash
+    `cd frontend
+    npm run dev`
    
    **Usage**
-    1. Sign Up or Log In to your account.
+   1. Sign Up or Log In to your account.
     
-    2. Purchase Credits through Razorpay to use the image generation feature.
+   2. Purchase Credits through Razorpay to use the image generation feature.
     
-    3. Enter a text prompt and generate creative images.
+   3. Enter a text prompt and generate creative images.
     
-    4. Download or share your generated images.
+   4. Download or share your generated images.
 
 
